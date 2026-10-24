@@ -4,6 +4,9 @@ flux-3-image-klein-loras-fast is an interactive image editing, text-to-image syn
 
 The platform supports pre-configured adapters (such as `360-Deg-LoRA`) alongside on-the-fly custom LoRA loading from any Hugging Face repository, complete with an in-memory adapter cache (`CUSTOM_LORA_CACHE`) to prevent redundant downloads. The backend is served via `gradio.Server` and FastAPI, driving a dark-mode single-page web application (SPA) with A/B comparison sliders, input/history filmstrips, and quick prompt suggestions.
 
+<img width="1918" height="900" alt="Screenshot From 2026-10-24 18-12-17" src="https://github.com/user-attachments/assets/a484a1c3-ea63-400e-bd11-db8d210a2ef8" />
+<img width="1918" height="900" alt="Screenshot From 2026-10-24 18-11-30" src="https://github.com/user-attachments/assets/88999e24-9647-4ea7-8ec7-41f19568e8c4" />
+
 ### **Key Features**
 
 * **FLUX.3 Image Klein Modular Pipeline:** Executes 16-step distilled image-to-image editing, multi-reference composition, and text-to-image generation in `bfloat16` precision.
