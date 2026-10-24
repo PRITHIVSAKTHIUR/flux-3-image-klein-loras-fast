@@ -46,7 +46,7 @@ To set up the `flux-3-image-klein-loras-fast` environment locally, configure you
 
 `uv` is an ultra-fast Python package and project manager written in Rust. It ensures rapid virtual environment setup and exact dependency synchronization based on `uv.lock`.
 
-**Step 1 — Install `uv**`
+**Step 1 — Install `uv`**
 
 * **macOS / Linux:** `curl -LsSf https://astral.sh/uv/install.sh | sh`
 * **Windows:** `powershell -c "irm https://astral.sh/uv/install.ps1 | iex"`
