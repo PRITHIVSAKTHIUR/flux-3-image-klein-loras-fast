@@ -78,6 +78,11 @@ ADAPTER_SPECS = {
         "weights": "360_f3.safetensors",
         "adapter_name": "360-panorama",
     },
+    "Font-Box": {
+        "repo": "lilylilith/FLUX.3_Klein_FontBox",
+        "weights": "F.3K_FontBox_v2.safetensors",
+        "adapter_name": "font-box",
+    },
     "Custom LoRA": {
         # Marker — repo/weights are supplied per-request via the API.
         "repo": None,
